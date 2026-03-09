@@ -27,9 +27,9 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Image */}
           <div className="relative">
-            <div className="relative aspect-[4/5] max-w-lg mx-auto">
+            <div className="relative aspect-4/5 max-w-lg mx-auto">
               <Image
-                src="/images/about-beauty.jpg"
+                src="/images/charles.jpg"
                 alt="Professional makeup artist at work"
                 fill
                 className="object-cover rounded-2xl"

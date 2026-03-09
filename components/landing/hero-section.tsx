@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Calendar } from "lucide-react"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -35,8 +36,9 @@ export function HeroSection() {
               Book Appointment
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="outline" className="px-8 py-6 text-base border-primary/30 text-foreground hover:bg-primary/10">
-              View Our Work
+            <Button size="lg" variant="outline"
+            className="px-8 py-6 text-base border-primary/30 text-foreground hover:bg-primary/10">
+              <Link href={`#gallery`}>View Our Work</Link>
             </Button>
           </div>
           
@@ -60,7 +62,7 @@ export function HeroSection() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground">
-        <span className="text-xs tracking-widest uppercase">Scroll</span>
+      {/* {  <span className="text-xs tracking-widest uppercase">Scroll</span>} */}
         <div className="w-px h-12 bg-border relative overflow-hidden">
           <div className="w-full h-4 bg-primary/50 absolute animate-bounce" />
         </div>
