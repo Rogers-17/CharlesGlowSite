@@ -29,7 +29,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="relative aspect-4/5 max-w-lg mx-auto">
               <Image
-                src="/images/charles.jpg"
+                src="/images/charles.JPG"
                 alt="Professional makeup artist at work"
                 fill
                 className="object-cover rounded-2xl"

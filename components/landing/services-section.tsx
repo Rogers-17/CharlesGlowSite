@@ -43,7 +43,7 @@ const services = [
     duration: "1.5-2 hours",
     popular: true,
     features: ["HD Ready", "Multi-Look Options", "Touch-ups"],
-    image: "/images/gal3.jpg",
+    image: "/images/gal3.JPG",
   },
   // {
   //   id: 5,
